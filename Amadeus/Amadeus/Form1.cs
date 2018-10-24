@@ -16,5 +16,10 @@ namespace Amadeus
         {
             InitializeComponent();
         }
+
+        private void KnopButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Knop ingedrukt!", "Hurray!");
+        }
     }
 }
